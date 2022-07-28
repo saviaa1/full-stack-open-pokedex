@@ -37,3 +37,4 @@ jobs:
           branch: 'part1'
           healthcheck: 'https://peaceful-crag-61890.herokuapp.com/health'
           checkstring: 'ok'
+          rollbackonhealthcheckfailed: true
